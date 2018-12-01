@@ -1,8 +1,7 @@
 function changeHeading() {
   let heading = document.querySelector('h1');
-  heading.textContent = 'Ye Olde CATalog';
-
   let heading2 = document.querySelector('.changeMe');
+  heading.textContent = 'Ye Olde CATalog';
   heading2.textContent = 'Oh yeah';
 }
 
