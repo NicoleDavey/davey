@@ -10,7 +10,7 @@ function changeHeading(ev) {
   let catList = document.querySelector('div.catList');
 
   // add the values to the list
-  catList.innerHTML += '<p>' + catName + '</p>';
+  catList.innerHTML += '<p>' + catName + ', ' + catAge + '</p>';
 
   // clear the form
   catForm.reset();
